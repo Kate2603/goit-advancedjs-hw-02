@@ -1,0 +1,54 @@
+.back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80px;
+  padding: 10px;
+  margin: 15px;
+  background-color: #e7f3fe;
+  color: #333;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+.back:hover {
+  background-color: #d1e7ff;
+}
+
+.back:active {
+  background-color: #a4c8ff;
+}
+
+.form {
+  background-color: white;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
